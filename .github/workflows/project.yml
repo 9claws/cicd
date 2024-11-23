@@ -31,7 +31,7 @@ jobs:
       - name: Проверка изменений репозитория
         uses: actions/checkout@v2
 
-      - name: Устоновка python
+      - name: Установка python
         uses: actions/setup-python@v5
         with:
           python-version: 3.12
